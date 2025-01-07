@@ -7,47 +7,59 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8e9f5; /* Light Pink Background */
+            background-color: #f8e9f5; /* Light pink background */
+            color: #333;
             margin: 0;
             padding: 20px;
-            color: #333;
         }
         .container {
             max-width: 900px;
             margin: auto;
-            background: #ffffff;
-            padding: 20px;
+            background-color: #ffffff;
             border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
         }
         h1, h2 {
             text-align: center;
-            color: #0073e6; /* Blue for headings */
+            color: #0073e6; /* Blue */
         }
-        .team-members, .modules, .problem-statement {
-            margin-bottom: 20px;
-        }
-        .team-members h3, .modules h3, .problem-statement h3 {
-            color: #ff66b2; /* Pink for section headings */
+        h3 {
+            color: #ff66b2; /* Pink */
         }
         ul {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
         }
-        li {
+        ul li {
+            background-color: #f2f8ff; /* Light blue */
             margin: 5px 0;
             padding: 10px;
-            background: #f2f8ff; /* Light Blue Background */
             border-radius: 5px;
         }
         .module {
-            background: #ffe6f2; /* Light Pink Background for modules */
+            background-color: #ffe6f2; /* Light pink for modules */
             padding: 10px;
             border-radius: 5px;
-            margin-bottom: 10px;
+            margin-top: 10px;
         }
         .module h4 {
             color: #0073e6; /* Blue for module titles */
+        }
+        .button {
+            display: inline-block;
+            background-color: #0073e6; /* Blue button */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #005bb5; /* Darker blue on hover */
         }
     </style>
 </head>
@@ -55,38 +67,45 @@
     <div class="container">
         <h1>Air Route System</h1>
         <h2>Team 03</h2>
-        <div class="team-members">
+
+        <div class="team-details">
             <h3>Team Members</h3>
             <ul>
                 <li>Anjali Kolavi: 02FE23BCS058</li>
                 <li>Srushti Cougale: 02FE23BCS054</li>
                 <li>Vittal Nesargi: 02FE23BCS055</li>
-                <li>Ramkumar M: 02FE23BCS051</li>
+                <li>Ramkumar M: 02FE23BCS0519</li>
             </ul>
         </div>
+
         <div class="problem-statement">
             <h3>Problem Statement</h3>
             <p>Air Route System</p>
         </div>
+
         <div class="modules">
             <h3>Modules</h3>
             <div class="module">
                 <h4>1. Flight Information Management System</h4>
-                <p>Provides real-time updates and notifications on flight schedules, statuses, and gate information for efficient options and passenger convenience.</p>
+                <p>A Flight information management system provides real-time updates and notifications on flight schedules, statuses, and gate information for efficient options and passenger convenience.</p>
+                <a href="case 1.cpp" class="button">View Code</a>
             </div>
             <div class="module">
                 <h4>2. Booking and Ticketing System</h4>
-                <p>Enables users to search, reserve, and manage tickets while processing payments efficiently for various services.</p>
+                <p>It enables users to search, reserve, and manage tickets while processing payments efficiently for various services.</p>
+                <a href="case 2.cpp" class="button">View Code</a>
             </div>
             <div class="module">
                 <h4>3. Flight Route Management System</h4>
-                <p>Optimizes and manages flight paths, ensuring efficient routing, scheduling, and real-time adjustments for safe and timely operations.</p>
+                <p>It optimizes and manages flight paths, ensuring efficient routing, scheduling, and real-time adjustments for safe and timely operations.</p>
+                <a href="case 3.cpp" class="button">View Code</a>
             </div>
             <div class="module">
                 <h4>4. Baggage Handling System</h4>
-                <p>Supports efficient baggage management processes.</p>
+                <p>It supports efficient baggage management processes.</p>
+                <a href="case 4.cpp" class="button">View Code</a>
             </div>
         </div>
     </div>
 </body>
-</html>
+</html
